@@ -3,6 +3,11 @@
   display: flex;
 }
 
+.specialsAndNumbers{
+  display: flex;
+  flex-direction: column;
+}
+
 .numButtons{
   background-color: #173463;
 }

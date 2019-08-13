@@ -26,8 +26,10 @@ function App() {
         <Display />
       </div>
       <div className="App">
-        <Specials />
-        <Numbers />
+        <div className="specialsAndNumbers">
+          <Specials />
+          <Numbers />
+        </div>
         <Operators />
       </div>
     </div>
