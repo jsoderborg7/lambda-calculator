@@ -1,19 +1,6 @@
 
-
 .App{
   display: flex;
-  
-}
-
-.specNums{
-  display: flex;
-  flex-direction: column;
-}
-
-.ops{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
 }
 
 .numButtons{

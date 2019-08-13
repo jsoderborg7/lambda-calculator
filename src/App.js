@@ -26,14 +26,9 @@ function App() {
         <Display />
       </div>
       <div className="App">
-        {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <div className="specNums">
-          <Specials />
-          <Numbers />
-        </div>
-        <div className="ops">
-          <Operators />
-        </div>
+        <Specials />
+        <Numbers />
+        <Operators />
       </div>
     </div>
   );

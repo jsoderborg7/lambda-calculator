@@ -14,7 +14,7 @@ code {
 
 .container{
   width: 400px;
-  height: 600px;
+  height: 620px;
   margin: auto;
   padding: 1rem;
   background-color: darkred;
@@ -26,19 +26,21 @@ code {
   display: flex;
   justify-content: flex-end;
   color: white;
-  background-color: darkslategray;
+  background-color: #1c282e;
   padding: 1rem;
   margin: 1.5rem .5rem;
   border-radius: 50px;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 button{
   color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
   border-radius: 50%;
   width: 70px;
   height: 70px;
   margin: .5rem;
   outline: none;
+  border: none;
+  box-shadow: 1px 3px #1c282e;
 }
