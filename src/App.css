@@ -1,5 +1,5 @@
 .container{
-  width: 500px;
+  width: 40%;
   margin: auto;
   padding: 1rem;
   background-color: darkred;
@@ -12,7 +12,7 @@
   justify-content: flex-end;
   color: white;
   background-color: darkslategray;
-  padding: 1rem 1rem;
+  padding: 1rem;
   margin: 1.5rem .5rem;
   border-radius: 50px;
   font-size: 2rem;
@@ -20,5 +20,30 @@
 
 .App{
   display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.specNums{
+  display: flex;
   flex-direction: column;
+
+}
+
+.numButtons{
+  background-color: #173463;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.opButtons{
+  background-color: #1d6a7d;
+  display: flex;
+  flex-direction: column;
+}
+
+.specButtons{
+  background-color: #28559c;
 }

@@ -13,11 +13,8 @@ code {
 }
 
 button{
-  border: 2px solid yellow;
-  font-size: 2rem;
   color: white;
-  background-color: darkblue;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 60%;
+  font-size: 1.5rem;
+  border-radius: 50%;
+
 }
