@@ -13,8 +13,9 @@ const Numbers = () => {
 
   return (
     <div>
-      {numberState.map((number, index) => ( <NumberButton numbers={number} key={index}/>
-      ))}
+      {numbers.map(number => {
+        return <NumberButton numbers={number}/>
+      })}
     </div>
   );
 };
