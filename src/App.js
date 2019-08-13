@@ -31,7 +31,9 @@ function App() {
           <Specials />
           <Numbers />
         </div>
-        <Operators />
+        <div className="ops">
+          <Operators />
+        </div>
       </div>
     </div>
   );
