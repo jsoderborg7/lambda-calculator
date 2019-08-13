@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import OperatorButton from "./OperatorButton";
-import {operators} from "../../../data";
+import operators from "../../../data";
 
 //import any components needed
 
@@ -13,7 +13,7 @@ const Operators = () => {
   return (
     <div>
       {operatorState.map((operator, index) => (
-        <OperatorButton operator={operators} key={index} 
+        <OperatorButton operator={operator} key={index} 
         />
       ))}
     </div>
