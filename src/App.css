@@ -1,0 +1,26 @@
+
+.App{
+  display: flex;
+}
+
+.specialsAndNumbers{
+  display: flex;
+  flex-direction: column;
+}
+
+.numButtons{
+  background-color: #173463;
+}
+
+.numButtons:nth-child(10){
+  width: 157px;
+  border-radius: 40px;
+}
+
+.opButtons{
+  background-color: #1d6a7d;
+}
+
+.specButtons{
+  background-color: #28559c;
+}
